@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2c5746;
+  background-repeat: no-repeat;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+thead th {
+  color: #2c5746;
+}
+table.table.table-transparent {
+  color: white;
+}
+table.table.table-transparent {
+  margin: 0 auto;
+  width: 80%;
+}
+table tr:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: 13px;
+  }
+  table.table.table-transparent {
+  margin: 0 auto;
+  width: 90%;
+}
+}

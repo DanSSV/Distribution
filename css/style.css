@@ -1,0 +1,34 @@
+ body {
+ 
+      background: linear-gradient(to bottom, #073e5d, #2C5746);
+   
+      height: 100vh;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+#map { 
+  width: 600px; height: 400px; position: relative; margin: 0 auto;
+}
+.navbar {
+  background-color: #073e5d;
+}
+.navbar-brand img {
+    width: 150px;
+    height: auto; 
+  }
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffa500;
+}
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #2C5746;
+  color: white; 
+}
+@media (max-width: 768px) {
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+  #map { 
+  width: auto; height: 50%; position: relative; margin: 0 auto;
+}
+}
